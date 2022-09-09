@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
-import 'home_page.dart';
+import 'todo_list.dart';
 
 void main() {
   runApp(const MyApp());
@@ -157,7 +157,7 @@ class LoginPageState extends State<LoginPage> {
                     Navigator.push(
                       context,
                       MaterialPageRoute(
-                        builder: (_) => const HomePage()
+                        builder: (_) => const TodoList()
                       )
                     );
                   },
